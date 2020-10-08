@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.github.smeup.smeup-rpg</groupId>
             <artifactId>rpgJavaInterpreter-core</artifactId>
-            <version>ad779dd8d9</version>
+            <version>4cbb2da621</version>
         </dependency>
     </dependencies>
     <name>javatojarikods</name>
