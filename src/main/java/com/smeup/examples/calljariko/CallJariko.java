@@ -11,7 +11,6 @@ import com.smeup.rpgparser.execution.JarikoCallback;
 import com.smeup.rpgparser.execution.RunnerKt;
 import com.smeup.rpgparser.interpreter.IMemorySliceStorage;
 import com.smeup.rpgparser.interpreter.MemorySliceId;
-import com.smeup.rpgparser.interpreter.MemorySliceMgr;
 import com.smeup.rpgparser.interpreter.SystemInterface;
 import com.smeup.rpgparser.interpreter.Value;
 import com.smeup.rpgparser.jvminterop.JavaSystemInterface;
@@ -90,7 +89,6 @@ public class CallJariko {
         //Creating a Dummy memory storage in order to handle jariko memory persistence
         //For example you can add/get memorystorage in a httpsession attribute
         MemoryStorage storage = new MemoryStorage();
-        MemorySliceMgr mgr = new MemorySliceMgr(storage);
         
         
         //creating jariko configuration
